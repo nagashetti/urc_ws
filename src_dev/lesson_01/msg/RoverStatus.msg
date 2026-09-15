@@ -1,0 +1,13 @@
+std_msgs/Header header
+uint8 MODE_IDLE=0
+uint8 MODE_TELEOP=1
+uint8 MODE_AUTONOMOUS=2
+uint8 mode
+uint8 active_leg_id
+bool leg_reached
+float32 distance_to_goal_m
+float32 bearing_to_goal_deg
+float32 battery_pct
+bool aruco_visible
+int32 aruco_id
+string state_text
